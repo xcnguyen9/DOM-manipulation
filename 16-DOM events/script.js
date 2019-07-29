@@ -66,10 +66,3 @@ ul.addEventListener("click", itemToggleAfterClick);
 
 // add listeners to <button class="delete"> button
 ul.addEventListener("click", itemDeleteAfterClick);
-
-
-
-
-
-
-

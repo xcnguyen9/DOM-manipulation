@@ -65,7 +65,7 @@ input.addEventListener("keypress", addListAfterKeypress);
 //  add listeners to <ul id="itemList"> unordered list to strike through item when it is clicked
 ul.addEventListener("click", itemToggleAfterClick);
 
-//  add listeners to <ul id="itemList"> unordered list to delete items when pressing 'X' button
+// add listeners to<ul id="itemList"> unordered list to delete items when pressing 'X' button
 ul.addEventListener("click", itemDeleteAfterClick);
 
 

@@ -28,7 +28,7 @@ function createListElement() {
 function itemDeleteAfterClick(event) {
 	if (event.target.className === "delete") {
 		var removeItem = event.target.parentNode; // gets the parent element of the target (li element)
-  		var parentNode = remove.parentNode;	// gets the parent of the li element (ul element)
+  		var parentNode = removeItem.parentNode;	// gets the parent of the li element (ul element)
   		parentNode.removeChild(removeItem); // calls removeChild method by passing 'removeItem' 
   											//parameter which contained selected li*/
 	}	

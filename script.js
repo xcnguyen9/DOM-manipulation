@@ -67,10 +67,3 @@ ul.addEventListener("click", itemToggleAfterClick);
 
 // add listeners to<ul id="itemList"> unordered list to delete items when pressing 'X' button
 ul.addEventListener("click", itemDeleteAfterClick);
-
-
-
-
-
-
-

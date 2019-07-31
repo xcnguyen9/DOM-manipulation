@@ -29,8 +29,8 @@ function itemDeleteAfterClick(event) {
 	if (event.target.className === "delete") {
 		var removeItem = event.target.parentNode; // gets the parent element of the target (li element)
   		var parentNode = remove.parentNode;	// gets the parent of the li element (ul element)
-  		parentNode.removeChild(removeItem); // calls removeChild method by passing 
-						//'removeItem' parameter which contained selected li*/
+  		parentNode.removeChild(removeItem); // calls removeChild method by passing 'removeItem' 
+  											//parameter which contained selected li*/
 	}	
 }
 
@@ -62,8 +62,15 @@ button.addEventListener("click", addListAfterClick);
 // add listeners to <button id="userinput"> button
 input.addEventListener("keypress", addListAfterKeypress);
 
-// add listeners to <ul id="itemList"> unordered list
+//  add listeners to <ul id="itemList"> unordered list to strike through item when it is clicked
 ul.addEventListener("click", itemToggleAfterClick);
 
-// add listeners to <button class="delete"> button
+//  add listeners to <ul id="itemList"> unordered list to delete items when pressing 'X' button
 ul.addEventListener("click", itemDeleteAfterClick);
+
+
+
+
+
+
+
